@@ -1,0 +1,26 @@
+{
+    "name": "TestCalculatorTestSuite/TestCalculator1",
+    "status": "passed",
+    "statusDetails": {
+        "message": "",
+        "trace": ""
+    },
+    "steps": null,
+    "start": 1612352502139,
+    "stop": 1612352502139,
+    "uuid": "cece1831-995c-4abd-8e2a-ef10092f99d8",
+    "historyId": "13b1828e-25b2-4200-8217-90725baa175f",
+    "fullName": "TestCalculatorTestSuite/TestCalculator1",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "TestCalculatorTestSuite"
+        },
+        {
+            "name": "package",
+            "value": "github.com.venkata-qe.golang-learnings.tests"
+        }
+    ],
+    "description": "",
+    "links": null
+}

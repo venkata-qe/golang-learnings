@@ -1,0 +1,26 @@
+{
+    "name": "TestMathsTestSuite/TestMaths3",
+    "status": "passed",
+    "statusDetails": {
+        "message": "",
+        "trace": ""
+    },
+    "steps": null,
+    "start": 1612352502139,
+    "stop": 1612352502139,
+    "uuid": "52f661df-f5a8-460c-b6ff-8423bc3bb453",
+    "historyId": "f45dfce7-74b7-4f2e-b347-33bccc7696ad",
+    "fullName": "TestMathsTestSuite/TestMaths3",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "TestMathsTestSuite"
+        },
+        {
+            "name": "package",
+            "value": "github.com.venkata-qe.golang-learnings.tests"
+        }
+    ],
+    "description": "",
+    "links": null
+}

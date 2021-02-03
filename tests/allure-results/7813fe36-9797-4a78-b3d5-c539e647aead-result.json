@@ -1,0 +1,26 @@
+{
+    "name": "TestSum",
+    "status": "passed",
+    "statusDetails": {
+        "message": "",
+        "trace": ""
+    },
+    "steps": null,
+    "start": 1612352502140,
+    "stop": 1612352502140,
+    "uuid": "7813fe36-9797-4a78-b3d5-c539e647aead",
+    "historyId": "829c6f0d-ad8d-46ca-9c4e-a84bbec75bb1",
+    "fullName": "TestSum",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "TestSum"
+        },
+        {
+            "name": "package",
+            "value": "github.com.venkata-qe.golang-learnings.tests"
+        }
+    ],
+    "description": "",
+    "links": null
+}
