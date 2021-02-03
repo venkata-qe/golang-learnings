@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        go 'go1.15.7'
+        go 'Go1.15.7'
     }
     parameters {
         string(name: 'RECIPIENTS', defaultValue: 'venkata.koripalli@gmail.com', description: 'Email for the build result')
