@@ -36,7 +36,7 @@ func (suite *CalculatorTestSuite) TestCalculator3() {
 }
 
 func (suite *CalculatorTestSuite) TestCalculator4() {
-    assert.Equal(suite.T(), 8, suite.VariableThatShouldStartAtFive)
+    assert.Equal(suite.T(), 5, suite.VariableThatShouldStartAtFive)
 }
 
 // In order for 'go test' to run this suite, we need to create
