@@ -43,6 +43,7 @@ pipeline {
                     echo 'Running test'
                     sh 'cd tests && go test -json > json-report.txt'
                     sh '~/go/bin/gotest2allure -f json-report.txt'
+                    sh 'pwd'
                 }
             }
         }
@@ -65,7 +66,7 @@ pipeline {
                         jdk: '',
                         properties: [],
                         reportBuildPolicy: 'ALWAYS',
-                        results: [[path: '/tests/allure-results/']]
+                        results: [[path: '/Users/venkatakoripalli/.jenkins/workspace/GoTestSuite/tests/allure-results/']]
                 ])
             }
         }
