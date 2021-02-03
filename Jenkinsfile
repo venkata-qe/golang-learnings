@@ -42,8 +42,7 @@ pipeline {
                     // sh 'golint .'
                     echo 'Running test'
                     sh 'cd tests && go test -json > json-report.txt'
-                    sh '~/go/bin/gotest2allure -f json-report.txt'
-                    sh 'pwd'
+                    sh 'gotest2allure -f json-report.txt'
                 }
             }
         }
@@ -56,7 +55,6 @@ pipeline {
                 echo 'Deploy the app'
             }
         }
-        
     }
     post {
         always {
@@ -66,7 +64,7 @@ pipeline {
                         jdk: '',
                         properties: [],
                         reportBuildPolicy: 'ALWAYS',
-                        results: [[path: '/Users/venkatakoripalli/.jenkins/workspace/GoTestSuite/tests/allure-results/']]
+                        results: [[path: 'tests/allure-results']]
                 ])
             }
         }
